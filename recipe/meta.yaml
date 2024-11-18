@@ -1,5 +1,5 @@
 {% set name = "loop" %}
-{% set version = "0.17.1" %}
+{% set version = "0.17.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/adrianliechti/loop/archive/v{{ version }}.tar.gz
-  sha256: c06129b48f11a80642092d8a792bdfc151436e30081f2197e545113f0a4dcd27
+  sha256: 60d16d0e3739d7742a0b6506c12d90dd0377a013e927a05609f384c96ab1f1ca
 
 build:
   number: 0
