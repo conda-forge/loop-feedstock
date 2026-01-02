@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.20.4"
+  version: "0.20.5"
 
 package:
   name: loop
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/adrianliechti/loop/archive/v${{ version }}.tar.gz
-  sha256: 6c6d6f231d577d6f4090a74359159e281f97a9a6e565e87fb1f8ebd1755f832f
+  sha256: c516296f61ec220285ca3ff820ef9b65b1c713b1acd612472b77346603d3ad7d
 
 build:
   number: 0
